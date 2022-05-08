@@ -19,3 +19,10 @@ model Feedback {
 
   @@map("feedbacks")
 }
+
+model ChangeImg {
+  id  String @id @default(uuid())
+  img String
+
+  @@map("changeimg")
+}
